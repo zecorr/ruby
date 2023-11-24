@@ -117,3 +117,18 @@ puts test
 
 # strip
 puts "  hello, world    ".strip
+
+# sub
+puts "he77o".sub("7", "l")
+
+# gsub
+puts "he77o".gsub("7", "l")
+
+# insert
+puts "hello".insert(-1, " dude")
+
+# delete
+puts "hello world".delete("l")
+
+# prepend
+puts "!".prepend("hello, ", "world")
