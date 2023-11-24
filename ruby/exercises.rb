@@ -65,7 +65,6 @@ puts "Welcome " << "to" << " the " << "Machine"
 puts "Welcome ".concat("to ").concat("the Machine")
 
 # Substrings
-
 puts "hello"[0]
 puts "hello"[0..2]
 puts "hello"[0, 4]
@@ -82,3 +81,39 @@ puts "hello"[-2]
 # \' # Single quotes
 
 puts "Hello \n\n\nHello"
+
+# Interpolation 
+# Only works with double quotes
+name = "Dog"
+puts "Hello, #{name} with double quotes"
+puts 'Hello, #{name} with single quotes'
+
+# capitalize
+puts "hello".capitalize 
+
+# include?
+puts "hello".include?("lo") # true
+puts "hello".include?("z") # false
+
+# upcase
+puts "hello".upcase
+
+# downcase
+puts "heLLo".downcase
+
+# empty
+puts "hello".empty? # false
+puts "".empty? # true
+
+# length
+puts "hello".length
+
+# reverse
+puts "hEllo".reverse
+
+# split
+test = "hello world".split
+puts test
+
+# strip
+puts "  hello, world    ".strip
