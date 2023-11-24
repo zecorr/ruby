@@ -132,3 +132,27 @@ puts "hello world".delete("l")
 
 # prepend
 puts "!".prepend("hello, ", "world")
+
+# convert objects to strings
+puts "5.to_s"
+puts 5.to_s
+puts "nil.to_s"
+puts nil.to_s
+puts ":symbol.to_s"
+puts :symbol.to_s
+
+# Symbols
+
+# To create a symbol, put a colon at the beginning of some text:
+:my_symbol
+
+# Symbols vs strings
+puts "string" == "string"
+puts "string".object_id == "string".object_id
+puts :symbol.object_id == :symbol.object_id
+
+# Booleans
+
+# true and false
+
+# nil - when a piece of code doesn't have anything to return. 
