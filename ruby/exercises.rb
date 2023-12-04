@@ -1,7 +1,6 @@
 # Basic Data Types
 
-# Numbers 
-
+### Numbers ###
 # Addition
 puts "Addition: 2 + 2 ="
 puts 2 + 2
@@ -53,10 +52,9 @@ puts 6.even?
 puts "6.odd?"
 puts 6.odd?
 
-# Strings
+### Strings ###
 
 # Concatenate
-
 # With the plus operator:
 puts "Welcome " + "to " + "the Machine"
 # With the shovel operator:
@@ -71,14 +69,14 @@ puts "hello"[0, 4]
 puts "hello"[-1]
 puts "hello"[-2]
 
-# \\ # Backslash
-# \b # Backspace
-# \r # Carriage return
-# \n # New line
-# \s # Space
-# \t # Tab
-# \" # Double quotes
-# \' # Single quotes
+#    \\    # Backslash
+#    \b    # Backspace
+#    \r    # Carriage return
+#    \n    # New line
+#    \s    # Space
+#    \t    # Tab
+#    \"    # Double quotes
+#    \'    # Single quotes
 
 puts "Hello \n\n\nHello"
 
@@ -156,3 +154,22 @@ puts :symbol.object_id == :symbol.object_id
 # true and false
 
 # nil - when a piece of code doesn't have anything to return. 
+
+# Literals 
+# A literal is any notation that lets you represent a fixed value in source code. 
+
+"Hello, world!"        # string literal
+375                    # integer literal
+3.14159                # float literal
+true                   # boolean literal
+{'a' => 1, 'b' => 2}   # hash literal
+[1, 2, 3]              # array literal
+:sym                   # symbol literal
+nil                    # nil literal
+
+movies = {
+    jaws: 1975,
+    anchorman: 2004,
+    man_of_steel: 2013,
+    a_beautiful_mind: 2001,
+}
